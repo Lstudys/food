@@ -1,0 +1,47 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/loginBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#logo{
+    margin-bottom: 20px;
+}
+
+.inputWrap{
+    width: 550px;
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    line-height: 65px;
+}
+.inputWrap label{
+    width: 130px;
+    background-color: #ff8400;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.inputWrap input{
+    width: 100%;
+    border: none;
+    color: #b2b2b2;
+    font-size: 20px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+/* 使用伪元素 */
+#container input::placeholder{
+    color: #ccc;
+}
+
+
