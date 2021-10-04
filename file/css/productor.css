@@ -1,0 +1,6 @@
+@import url('./subBar.css');
+
+body{
+    background-image: url('../images/indexBackGround.jpg');
+    background-size: cover;
+}

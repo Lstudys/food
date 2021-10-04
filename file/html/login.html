@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 先引入reset.css,作为公用的默认的样式，后引入HTML文件专用的css文件，覆盖掉一些特定的样式 -->
+    <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/login.css">
     <title>登录</title>
 </head>
 <body>
     <div id="container">
-        <img src="../images/loginLogo.jpg" alt="" id="logo"/>
+        <img src="../images/logo.jpg" alt="" id="logo"/>
         <form action="#" method="POST">
             <div class="inputWrap">
                 <label for="username">账号</label>
@@ -21,8 +23,8 @@
             </div>
         </form>
         <div id="btnWrap">
-           <button style="cursor: pointer;">登录</button>
-           <button style="cursor: pointer;">注册</button>
+           <button>登录</button>
+           <button>注册</button>
        </div>
     </div>
 </body>

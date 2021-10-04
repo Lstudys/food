@@ -52,13 +52,10 @@
     margin-right: 10px;
     border-radius: 30px;
     background-color: coral;
-    align-items: center;
+    text-align: center;
     font-size: 15px;
     color: #fff;
     border: none;
 }
 
-/* button :hover{
-    cursor: pointer;
-} */
 
