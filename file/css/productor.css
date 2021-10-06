@@ -3,4 +3,11 @@
 body{
     background-image: url('../images/indexBackGround.jpg');
     background-size: cover;
+    height: 100vh;
+}
+
+.wrap{
+    height: 100vh;
+    /* background-color: blue; */
+    overflow: auto;
 }

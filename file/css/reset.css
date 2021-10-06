@@ -35,9 +35,9 @@ table{
 /* 阿里图标库 */
 @font-face {
     font-family: 'iconfont';  /* Project id 2848933 */
-    src: url('//at.alicdn.com/t/font_2848933_cb08yiy8krt.woff2?t=1633348589735') format('woff2'),
-         url('//at.alicdn.com/t/font_2848933_cb08yiy8krt.woff?t=1633348589735') format('woff'),
-         url('//at.alicdn.com/t/font_2848933_cb08yiy8krt.ttf?t=1633348589735') format('truetype');
+    src: url('http://at.alicdn.com/t/font_2848933_cb08yiy8krt.woff2?t=1633348589735') format('woff2'),
+         url('http://at.alicdn.com/t/font_2848933_cb08yiy8krt.woff?t=1633348589735') format('woff'),
+         url('http://at.alicdn.com/t/font_2848933_cb08yiy8krt.ttf?t=1633348589735') format('truetype');
   }
 
   .iconfont{
