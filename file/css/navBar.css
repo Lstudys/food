@@ -1,0 +1,64 @@
+.navBar{
+    position: fixed;
+    left: 300px; 
+    right: 0;
+    top: 0;
+    height: 80px;
+    padding: 0 2px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fff;
+}
+
+.navWrap{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.navWrap li{
+    font-size: 24px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.navWrap li:hover,.navWrap li.active{
+    color: #f9d163;
+}
+
+.navWrap li span.iconfont{
+    font-size: 26px;
+    margin-right: 5px;
+}
+
+.serch{
+    display: flex;
+    width: 300ppx;
+    height: 30px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 50px;
+}
+
+.serch input{
+    background: none;
+    border: none;
+    width: 270px;
+    /* color: #fff; */
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.serch button{
+    width: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

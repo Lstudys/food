@@ -45,7 +45,7 @@
     height: 300px;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    position: relative; /*设置相对定位为下面的交叉线设置绝对定位做准备*/
     /* background-color: blue; */
 }
 

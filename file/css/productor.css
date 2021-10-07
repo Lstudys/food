@@ -1,4 +1,5 @@
 @import url('./subBar.css');
+@import url('./navBar.css');
 
 body{
     background-image: url('../images/indexBackGround.jpg');

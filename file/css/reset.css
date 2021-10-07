@@ -40,6 +40,13 @@ table{
          url('http://at.alicdn.com/t/font_2848933_cb08yiy8krt.ttf?t=1633348589735') format('truetype');
   }
 
+  @font-face {
+    font-family: 'iconfont';  /* Project id 2848933 */
+    src: url('http://at.alicdn.com/t/font_2848933_x3kcxulxv0n.woff2?t=1633602536564') format('woff2'),
+         url('http://at.alicdn.com/t/font_2848933_x3kcxulxv0n.woff?t=1633602536564') format('woff'),
+         url('http://at.alicdn.com/t/font_2848933_x3kcxulxv0n.ttf?t=1633602536564') format('truetype');
+  }
+
   .iconfont{
     font-family:"iconfont" !important;
     font-size:16px;font-style:normal;
