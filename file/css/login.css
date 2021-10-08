@@ -39,9 +39,23 @@
     border-top-right-radius: 30px;
 }
 
+
+
 /* 使用伪元素 */
 #container input::placeholder{
     color: #ccc;
+}
+
+#btnWrap button{
+    width: 80px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    border: none;
 }
 
 
