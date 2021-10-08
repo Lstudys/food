@@ -5,6 +5,7 @@
     top: 0;
     height: 80px;
     padding: 0 2px;
+    padding-right: 20px;
     box-sizing: border-box;
 
     display: flex;
@@ -17,6 +18,7 @@
 .navWrap{
     display: flex;
     justify-content: space-around;
+
 
 }
 
@@ -50,14 +52,14 @@
     background: none;
     border: none;
     width: 270px;
-    /* color: #fff; */
+    color: #fff;
     font-size: 16px;
     padding-left: 15px;
 }
 
 .serch button{
     width: 30px;
-    color: black;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
