@@ -1,0 +1,90 @@
+@import url('./subBar.css');
+
+body{
+    /* background-image: url('../images/indexBackGround.jpg'); */
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrap{
+    height: 100vh;
+    /* background-color: blue; */
+    overflow: auto;
+}
+
+.content{
+    position: fixed;
+    top: 80px;
+    left: 300px;
+    right: 20px;
+    bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    box-sizing: border-box;
+    padding: 10px;
+
+    overflow: hidden;
+}
+
+.legend{
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.legend li{
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.legend li div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    text-align: center;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.legend li div span{
+    font-size: 25px;
+}
+
+.legend li:nth-child(1) div, .table div{
+    background-color: #66a8a6;
+}
+
+.legend li:nth-child(2) div, .table div.ordering{
+    background-color: #f79700;
+}
+
+.legend li:nth-child(3) div, .table div.eating{
+    background-color: #e5553f;
+}
+
+.table{
+    width: 90%;
+    margin: 40px auto 0;
+}
+
+.table li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 37px 50px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.table div{
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.table div span{
+    font-size: 80px;
+}
