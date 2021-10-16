@@ -1,0 +1,40 @@
+.left{
+    height: 100vh;
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #3F3F3F;
+}
+
+.logo{
+    width: 80%;
+    display: block;
+    margin: 50px auto;
+}
+
+.left li{
+    font-size: 16px;
+    color: #fff;
+    line-height: 60px;
+    padding-left: 30px;
+    border-bottom: 1px solid #2b2b2b;
+    cursor: pointer;
+}
+
+.left li span{
+    margin-right: 20px;
+}
+
+/* active作为当前显示的页面 */
+.left li.active, .left li:hover{
+    background-color: #2b2b2b;
+}
+
+.right{
+    min-height: 100vh;
+    background-color: #e0e3e8;
+    box-sizing: border-box;
+    padding: 40px 20px;
+    margin-left: 300px;
+}
