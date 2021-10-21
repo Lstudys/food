@@ -1,1 +1,83 @@
 @import url('./backCommon.css');
+
+
+.category{
+    overflow: hidden;
+    /* background-color: blue; */
+}
+
+.category li{
+    float: left;
+    width: 300px;
+    height: 300px;
+
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 0 10px 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.category li div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icon .iconfont{
+    font-size: 150px;
+    margin-bottom: 20px;
+    color: #ff8400;
+}
+
+.icon .text{
+    font-size: 30px;
+    color: #aaa;
+}
+
+.edit{
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+}
+
+.edit span{
+    color: #dbdbdb;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+.edit span:hover{
+    color: #ff8400;
+}
+
+.category li:hover .edit{
+    opacity: 1;
+    transition: 0.4s;
+}
+
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+.add span{
+    font-size: 200px;
+    color: #ccc;
+}
+
+.add:hover{
+    background-color: #eee;
+    transition: 0.3s;
+}
