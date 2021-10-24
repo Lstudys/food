@@ -16,6 +16,111 @@
     padding-left: 10px;
 }
 
+.box ul{
+    overflow: hidden;
+}
+
+.box li{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin: 0 10px 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+}
+
+.box .bottom{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.box .name{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.box .price{
+    padding-right: 10px;
+}
+
+.price strong{
+    color: #ff8400;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.recommend{
+    position: absolute;
+    font-size: 50px;
+    top: 5px;
+    left: 5px;
+    color: #ff8400;
+}
+
+.edit{
+    background: rgba(0, 0, 0, 0.9);
+    opacity: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    height: 100%;
+    width: 100%;
+}
+
+.box li:hover .edit{
+    opacity: 1;
+}
+
+.edit .iconfont{
+    color: #fff;
+    font-size: 80px;
+}
+
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid #ccc;
+
+}
+
+.add span{
+    font-size: 220px;
+    color: #ccc;
+}
+
+.add{
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.add:hover{
+    background-color: #eee;
+    /* transition: 0.3s; */
+}
+
+/* 
 .icon{
     justify-content: center;
     flex-direction: column;
@@ -70,4 +175,4 @@
 .add:hover{
     background-color: #eee;
     transition: 0.3s;
-}
+} */
