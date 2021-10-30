@@ -111,7 +111,7 @@
     font-size: 22px;
     color: #fff;
     top: -100px;
-    transition: .3;
+    transition: .3s;
 }
 
 .list li.eating{
@@ -141,4 +141,22 @@
 
 .list li.ordering p{
     color: #fc9723;
+}
+
+.list .add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.list .add span{
+    font-size: 120px;
+    color: #ccc;
+}
+
+.add:hover{
+    background-color: #eee;
+    transition: .3s;
 }
