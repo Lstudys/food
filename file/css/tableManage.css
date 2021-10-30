@@ -1,0 +1,162 @@
+@import url('./backCommon.css');
+
+
+.table{
+    background: #fff;
+    border-radius: 5px;
+}
+
+.table dt,.list h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff8400;
+
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 20px;
+}
+
+.table dd{
+    display: inline-block;
+    /* background-color: blue; */
+    padding: 10px;
+}
+
+.table dd div{
+    height: 110px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    /* background-color: blue; */
+}
+
+.table dd strong{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff8400;
+}
+
+.table dd span{
+    color: #aaa;
+}
+
+.table dd div::after{
+    content: '';
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(#fff,#ccc,#fff);
+    /* transform: rotate(90deg); */
+    right: 0;
+}
+
+
+.list{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.list ul{
+    padding: 20px;
+    overflow: hidden;
+}
+
+.list li{
+    height: 140px;
+    width: 200px;
+    border:1px solid #afafaf;
+    float: left;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 14px;
+}
+
+.list div{
+    height: 100px;
+    background-color: #898989;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+
+    /*设置相对定位，button绝对定位显示在div上面，overflow设置hidden为了让显示之前不显示button(显示之前在div区域外)*/
+    position: relative;
+    overflow: hidden;
+}
+
+.list div span{
+    font-size: 30px;
+    margin-right: 12px;
+}
+
+.list li p{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.list li button{
+    height: 100%;
+    width: 100%;
+    background-color: #66a8a6;
+    position: absolute;
+    left: 0;
+
+    font-size: 22px;
+    color: #fff;
+    top: -100px;
+    transition: .3s;
+}
+
+.list li.eating{
+    border-color: #e5553f;
+}
+
+.list li.eating div{
+    background-color: #e5553f;
+    cursor: pointer;
+}
+
+.list li.eating p{
+    color: #e5553f;
+}
+
+.list li.eating:hover button{
+    top: 0;
+}
+
+.list li.ordering{
+    border-color: #fc9723;
+}
+
+.list li.ordering div{
+    background-color: #fc9723;
+}
+
+.list li.ordering p{
+    color: #fc9723;
+}
+
+.list .add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.list .add span{
+    font-size: 120px;
+    color: #ccc;
+}
+
+.add:hover{
+    background-color: #eee;
+    transition: .3s;
+}

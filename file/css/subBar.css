@@ -91,7 +91,7 @@
     content: '';
     width: 70%;
     height: 1px;
-    background: linear-gradient(to right, red,blue);
+    background: linear-gradient(to right, red,blue);/*颜色渐变*/
     position: absolute;
     left: 50px;
     top: 150px;
